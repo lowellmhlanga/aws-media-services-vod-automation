@@ -41,38 +41,10 @@
               "AntiAlias": "ENABLED",
               "Sharpness": 50,
               "CodecSettings": {
-                "Codec": "H_264",
-                "H264Settings": {
-                  "InterlaceMode": "PROGRESSIVE",
-                  "NumberReferenceFrames": 3,
-                  "Syntax": "DEFAULT",
-                  "Softness": 0,
-                  "GopClosedCadence": 1,
-                  "GopSize": 90,
-                  "Slices": 1,
-                  "GopBReference": "DISABLED",
-                  "SlowPal": "DISABLED",
-                  "SpatialAdaptiveQuantization": "ENABLED",
-                  "TemporalAdaptiveQuantization": "ENABLED",
-                  "FlickerAdaptiveQuantization": "DISABLED",
-                  "EntropyEncoding": "CABAC",
+                "Codec": "H_265",
+                "H265Settings": {
                   "Bitrate": 1000000,
-                  "FramerateControl": "INITIALIZE_FROM_SOURCE",
-                  "RateControlMode": "CBR",
-                  "CodecProfile": "MAIN",
-                  "Telecine": "NONE",
-                  "MinIInterval": 0,
-                  "AdaptiveQuantization": "HIGH",
-                  "CodecLevel": "AUTO",
-                  "FieldEncoding": "PAFF",
-                  "SceneChangeDetect": "ENABLED",
-                  "QualityTuningLevel": "SINGLE_PASS",
-                  "FramerateConversionAlgorithm": "DUPLICATE_DROP",
-                  "UnregisteredSeiTimecode": "DISABLED",
-                  "GopSizeUnits": "FRAMES",
-                  "ParControl": "INITIALIZE_FROM_SOURCE",
-                  "NumberBFramesBetweenReferenceFrames": 2,
-                  "RepeatPps": "DISABLED"
+                  "RateControlMode": "CBR"
                 }
               },
               "AfdSignaling": "NONE",
@@ -103,8 +75,8 @@
               "HlsSettings": {
                 "AudioGroupId": "program_audio",
                 "AudioRenditionSets": "program_audio",
-                "SegmentModifier": "$dt$",
-                "IFrameOnlyManifest": "EXCLUDE"
+                "IFrameOnlyManifest": "EXCLUDE",
+                "SegmentModifier": "$dt$"
               }
             },
             "NameModifier": "_360"
@@ -148,38 +120,10 @@
               "AntiAlias": "ENABLED",
               "Sharpness": 50,
               "CodecSettings": {
-                "Codec": "H_264",
-                "H264Settings": {
-                  "InterlaceMode": "PROGRESSIVE",
-                  "NumberReferenceFrames": 3,
-                  "Syntax": "DEFAULT",
-                  "Softness": 0,
-                  "GopClosedCadence": 1,
-                  "GopSize": 90,
-                  "Slices": 1,
-                  "GopBReference": "DISABLED",
-                  "SlowPal": "DISABLED",
-                  "SpatialAdaptiveQuantization": "ENABLED",
-                  "TemporalAdaptiveQuantization": "ENABLED",
-                  "FlickerAdaptiveQuantization": "DISABLED",
-                  "EntropyEncoding": "CABAC",
+                "Codec": "H_265",
+                "H265Settings": {
                   "Bitrate": 2000000,
-                  "FramerateControl": "INITIALIZE_FROM_SOURCE",
-                  "RateControlMode": "CBR",
-                  "CodecProfile": "MAIN",
-                  "Telecine": "NONE",
-                  "MinIInterval": 0,
-                  "AdaptiveQuantization": "HIGH",
-                  "CodecLevel": "AUTO",
-                  "FieldEncoding": "PAFF",
-                  "SceneChangeDetect": "ENABLED",
-                  "QualityTuningLevel": "SINGLE_PASS",
-                  "FramerateConversionAlgorithm": "DUPLICATE_DROP",
-                  "UnregisteredSeiTimecode": "DISABLED",
-                  "GopSizeUnits": "FRAMES",
-                  "ParControl": "INITIALIZE_FROM_SOURCE",
-                  "NumberBFramesBetweenReferenceFrames": 2,
-                  "RepeatPps": "DISABLED"
+                  "RateControlMode": "CBR"
                 }
               },
               "AfdSignaling": "NONE",
@@ -210,8 +154,8 @@
               "HlsSettings": {
                 "AudioGroupId": "program_audio",
                 "AudioRenditionSets": "program_audio",
-                "SegmentModifier": "$dt$",
-                "IFrameOnlyManifest": "EXCLUDE"
+                "IFrameOnlyManifest": "EXCLUDE",
+                "SegmentModifier": "$dt$"
               }
             },
             "NameModifier": "_540"
@@ -255,38 +199,10 @@
               "AntiAlias": "ENABLED",
               "Sharpness": 50,
               "CodecSettings": {
-                "Codec": "H_264",
-                "H264Settings": {
-                  "InterlaceMode": "PROGRESSIVE",
-                  "NumberReferenceFrames": 3,
-                  "Syntax": "DEFAULT",
-                  "Softness": 0,
-                  "GopClosedCadence": 1,
-                  "GopSize": 90,
-                  "Slices": 1,
-                  "GopBReference": "DISABLED",
-                  "SlowPal": "DISABLED",
-                  "SpatialAdaptiveQuantization": "ENABLED",
-                  "TemporalAdaptiveQuantization": "ENABLED",
-                  "FlickerAdaptiveQuantization": "DISABLED",
-                  "EntropyEncoding": "CABAC",
+                "Codec": "H_265",
+                "H265Settings": {
                   "Bitrate": 3000000,
-                  "FramerateControl": "INITIALIZE_FROM_SOURCE",
-                  "RateControlMode": "CBR",
-                  "CodecProfile": "MAIN",
-                  "Telecine": "NONE",
-                  "MinIInterval": 0,
-                  "AdaptiveQuantization": "HIGH",
-                  "CodecLevel": "AUTO",
-                  "FieldEncoding": "PAFF",
-                  "SceneChangeDetect": "ENABLED",
-                  "QualityTuningLevel": "SINGLE_PASS",
-                  "FramerateConversionAlgorithm": "DUPLICATE_DROP",
-                  "UnregisteredSeiTimecode": "DISABLED",
-                  "GopSizeUnits": "FRAMES",
-                  "ParControl": "INITIALIZE_FROM_SOURCE",
-                  "NumberBFramesBetweenReferenceFrames": 2,
-                  "RepeatPps": "DISABLED"
+                  "RateControlMode": "CBR"
                 }
               },
               "AfdSignaling": "NONE",
@@ -317,8 +233,8 @@
               "HlsSettings": {
                 "AudioGroupId": "program_audio",
                 "AudioRenditionSets": "program_audio",
-                "SegmentModifier": "$dt$",
-                "IFrameOnlyManifest": "EXCLUDE"
+                "IFrameOnlyManifest": "EXCLUDE",
+                "SegmentModifier": "$dt$"
               }
             },
             "NameModifier": "_720"
@@ -331,14 +247,7 @@
             "SegmentLength": 10,
             "TimedMetadataId3Period": 10,
             "CaptionLanguageSetting": "OMIT",
-            "Destination": "s3://<MEDIABUCKET>/HLS/",
-            "DestinationSettings": {
-              "S3Settings": {
-                "AccessControl": {
-                  "CannedAcl": "PUBLIC_READ"
-                }
-              }
-            },
+            "Destination": "s3://<MEDIABUCKET>/IMG_7223/Default/HLS/",
             "TimedMetadataId3Frame": "PRIV",
             "CodecSpecification": "RFC_4281",
             "OutputSelection": "MANIFESTS_AND_SEGMENTS",
@@ -374,43 +283,13 @@
               "AntiAlias": "ENABLED",
               "Sharpness": 50,
               "CodecSettings": {
-                "Codec": "H_264",
-                "H264Settings": {
-                  "InterlaceMode": "PROGRESSIVE",
-                  "NumberReferenceFrames": 3,
-                  "Syntax": "DEFAULT",
-                  "Softness": 0,
-                  "GopClosedCadence": 1,
-                  "GopSize": 90,
-                  "Slices": 1,
-                  "GopBReference": "DISABLED",
-                  "SlowPal": "DISABLED",
-                  "SpatialAdaptiveQuantization": "ENABLED",
-                  "TemporalAdaptiveQuantization": "ENABLED",
-                  "FlickerAdaptiveQuantization": "DISABLED",
-                  "EntropyEncoding": "CABAC",
+                "Codec": "H_265",
+                "H265Settings": {
                   "Bitrate": 3000000,
-                  "FramerateControl": "INITIALIZE_FROM_SOURCE",
-                  "RateControlMode": "CBR",
-                  "CodecProfile": "MAIN",
-                  "Telecine": "NONE",
-                  "MinIInterval": 0,
-                  "AdaptiveQuantization": "HIGH",
-                  "CodecLevel": "AUTO",
-                  "FieldEncoding": "PAFF",
-                  "SceneChangeDetect": "ENABLED",
-                  "QualityTuningLevel": "SINGLE_PASS",
-                  "FramerateConversionAlgorithm": "DUPLICATE_DROP",
-                  "UnregisteredSeiTimecode": "DISABLED",
-                  "GopSizeUnits": "FRAMES",
-                  "ParControl": "INITIALIZE_FROM_SOURCE",
-                  "NumberBFramesBetweenReferenceFrames": 2,
-                  "RepeatPps": "DISABLED"
+                  "RateControlMode": "CBR"
                 }
               },
-              "AfdSignaling": "NONE",
               "DropFrameTimecode": "ENABLED",
-              "RespondToAfd": "NONE",
               "ColorMetadata": "INSERT"
             },
             "AudioDescriptions": [
@@ -437,14 +316,7 @@
         "OutputGroupSettings": {
           "Type": "FILE_GROUP_SETTINGS",
           "FileGroupSettings": {
-            "Destination": "s3://<MEDIABUCKET>/MP4/",
-            "DestinationSettings": {
-              "S3Settings": {
-                "AccessControl": {
-                  "CannedAcl": "PUBLIC_READ"
-                }
-              }
-            }
+            "Destination": "s3://<MEDIABUCKET>/IMG_7223/Default/MP4/"
           }
         }
       },
@@ -482,14 +354,7 @@
         "OutputGroupSettings": {
           "Type": "FILE_GROUP_SETTINGS",
           "FileGroupSettings": {
-            "Destination": "s3://<MEDIABUCKET>/Thumbnails/",
-            "DestinationSettings": {
-              "S3Settings": {
-                "AccessControl": {
-                  "CannedAcl": "PUBLIC_READ"
-                }
-              }
-            }
+            "Destination": "s3://<MEDIABUCKET>/IMG_7223/Default/Thumbnails/"
           }
         }
       }
